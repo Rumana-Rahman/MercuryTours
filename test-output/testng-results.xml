@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="238438" started-at="2023-02-11T09:59:52 EST" finished-at="2023-02-11T10:03:50 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="238438" started-at="2023-02-11T09:59:52 EST" finished-at="2023-02-11T10:03:50 EST">
+      <class name="org.mma.mercury.tours.demo.MercuryToursFlightBooking">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.mma.mercury.tours.demo.MercuryToursFlightBooking@6a1aab78]" name="setUp" is-config="true" duration-ms="105933" started-at="2023-02-11T09:59:52 EST" finished-at="2023-02-11T10:01:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userRegisterTest()[pri:0, instance:org.mma.mercury.tours.demo.MercuryToursFlightBooking@6a1aab78]" name="userRegisterTest" duration-ms="129804" started-at="2023-02-11T10:01:39 EST" finished-at="2023-02-11T10:03:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.mma.mercury.tours.demo.MercuryToursFlightBooking@6a1aab78]" name="closeBrowser" is-config="true" duration-ms="2044" started-at="2023-02-11T10:03:48 EST" finished-at="2023-02-11T10:03:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.mma.mercury.tours.demo.MercuryToursFlightBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
