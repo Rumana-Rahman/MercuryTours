@@ -108,7 +108,7 @@ public class MercuryToursFlightBooking  {
 			WebElement submitBtn = driver.findElement(By.name("submit"));
 			submitBtn.click(); // Click the submit button
 			Thread.sleep(1000); // wait statement
-			WebElement registerConfirmationMessage = driver.findElement(By.name("//*[contains(text(),' Note: Your user name is jojobean.')]"));
+			WebElement registerConfirmationMessage = driver.findElement(By.xpath("//*[contains(text(),' Note: Your user name is jojobean.')]"));
 			Assert.assertTrue(registerConfirmationMessage.isDisplayed(), "Unable to find the home page");
 			Thread.sleep(1000); // wait statement
 		} catch (Exception e) {

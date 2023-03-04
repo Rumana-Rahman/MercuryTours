@@ -1,4 +1,4 @@
-package com.org.mma.mercury.tours.util;
+package org.mma.mercury.tours.util;
 
 /**
  * **************************************
@@ -33,7 +33,11 @@ public class ExcelReader {
 	public ExcelReader(String path) {
 		this.path = path;
 		try {
+			System.out.println("path "+path);
 			fis = new FileInputStream(path);
+			System.out.println("fis "+fis);
+			
+			
 			workbook = new XSSFWorkbook(fis);
 			sheet = workbook.getSheetAt(0);
 			fis.close();
