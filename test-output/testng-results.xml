@@ -1,17 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61296" started-at="2023-02-25T11:51:02 EST" finished-at="2023-02-25T11:52:04 EST">
+  <suite name="Default suite" duration-ms="163363" started-at="2023-03-04T11:38:54 EST" finished-at="2023-03-04T11:41:37 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61296" started-at="2023-02-25T11:51:02 EST" finished-at="2023-02-25T11:52:04 EST">
+    <test name="Default test" duration-ms="163363" started-at="2023-03-04T11:38:54 EST" finished-at="2023-03-04T11:41:37 EST">
       <class name="org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="startBrowser" is-config="true" duration-ms="17004" started-at="2023-02-25T11:51:03 EST" finished-at="2023-02-25T11:51:20 EST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="startBrowser" is-config="true" duration-ms="10205" started-at="2023-03-04T11:38:54 EST" finished-at="2023-03-04T11:39:04 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userRegistration" duration-ms="37020" started-at="2023-02-25T11:51:23 EST" data-provider="getRegisterPage" finished-at="2023-02-25T11:52:01 EST">
+        <test-method status="PASS" signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userLogin" duration-ms="12141" started-at="2023-03-04T11:39:06 EST" data-provider="getLoginPage" finished-at="2023-03-04T11:39:18 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jojobean]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userLogin" duration-ms="2039" started-at="2023-03-04T11:39:18 EST" data-provider="getLoginPage" finished-at="2023-03-04T11:39:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rumana123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rumana123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userLogin" duration-ms="2025" started-at="2023-03-04T11:39:20 EST" data-provider="getLoginPage" finished-at="2023-03-04T11:39:22 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahim123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahim123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userLogin" duration-ms="2027" started-at="2023-03-04T11:39:22 EST" data-provider="getLoginPage" finished-at="2023-03-04T11:39:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simba678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[simba678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userRegistration" duration-ms="31957" started-at="2023-03-04T11:39:24 EST" data-provider="getRegisterPage" finished-at="2023-03-04T11:39:56 EST">
           <params>
             <param index="0">
               <value>
@@ -77,7 +141,205 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistration -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="closeBrowser" is-config="true" duration-ms="3234" started-at="2023-02-25T11:52:01 EST" finished-at="2023-02-25T11:52:04 EST">
+        <test-method status="PASS" signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userRegistration" duration-ms="32887" started-at="2023-03-04T11:39:56 EST" data-provider="getRegisterPage" finished-at="2023-03-04T11:40:29 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rumana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[(777)666-4444]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rumana@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[133, Main St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Laurel]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[MD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20709.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[rumana123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[rumana123]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[rumana123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method status="PASS" signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userRegistration" duration-ms="32242" started-at="2023-03-04T11:40:29 EST" data-provider="getRegisterPage" finished-at="2023-03-04T11:41:02 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nassim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AbdurRahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[(777)666-3333]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nassimrahman@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[113, Main St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[FairFax]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[VA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20411.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[rahim123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[rahim123]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[rahim123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method status="PASS" signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="userRegistration" duration-ms="32188" started-at="2023-03-04T11:41:02 EST" data-provider="getRegisterPage" finished-at="2023-03-04T11:41:34 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bakari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Simba]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[(777)666-1111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[simba@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[333, Main St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Woodside]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21223.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[simba678]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[simba678]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[simba678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite@51c8530f]" name="closeBrowser" is-config="true" duration-ms="3145" started-at="2023-03-04T11:41:34 EST" finished-at="2023-03-04T11:41:37 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

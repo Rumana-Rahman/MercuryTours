@@ -1,6 +1,7 @@
 	
 	package org.mma.mercury.tours.pages;
-	/**
+	import org.mma.mercury.tours.util.Utility;
+/**
 	 *********************************************************************************************************   
 	 @author Rumana Rahman
 	 Class Name: 
@@ -14,7 +15,8 @@
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.WebElement;
 	import org.openqa.selenium.support.FindBy;
-	import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 	public class MercuryToursLoginPage {
 		public WebDriver driver;
@@ -24,7 +26,7 @@
 		
 		/**
 		 *********************************************************************************************************   
-		                  Web elements - Mercury Tours Register page                   
+		                  Web elements - Mercury Tours Login page                   
 		 *********************************************************************************************************
 		 **/
 		
@@ -36,21 +38,27 @@
 		
 		/**
 		 *********************************************************************************************************   
-		                 Methods - Mercury Tours Register page                   
+		                 Methods - Mercury Tours Login page                   
 		 *********************************************************************************************************
 		 **/
 	  @Test
 	  public void mercuryToursLoginPageElementsAndMethods(String uName, String uPass) {
 		 try
 		 {
-			Thread.sleep(2000); 
+			Thread.sleep(2000); // wait statement
 			System.out.println(">>>>>>>> Test: Validate User Login <<<<<<<<");
-			userNameInput.sendKeys(uName);
-			Thread.sleep(2000); 
-			passwordInput.sendKeys(uPass);
-			Thread.sleep(2000);  
-			submitBtn.click();
-			Thread.sleep(2000); 
+			userNameInput.sendKeys(uName); // Enter the valid username
+			Thread.sleep(2000); // wait statement
+			passwordInput.sendKeys(uPass);// Enter the valid password
+			Thread.sleep(2000);  // wait statement 
+			submitBtn.click(); // Click the 'submit'button
+			Thread.sleep(2000);  // wait statement
+			Utility.captureScreenShot(driver, "MercuryToursLoginPage"); // Will capture the screenshot
+			// Print the confirmation message
+			System.out.println("Validate that the confirmation message is:--->"+loginConfirmationMessage.getText());
+			// Validate the confirmation message
+			Assert.assertTrue(loginConfirmationMessage.isDisplayed(), "Unable to log into the sysytem");
+			Thread.sleep(2000); // wait statement			
 		 } catch (Exception e) {
 			 System.out.println("Not able to login "+e.getMessage());
 		 }

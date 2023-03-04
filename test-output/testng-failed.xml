@@ -8,6 +8,7 @@
           <include name="closeBrowser"/>
           <include name="userRegistration"/>
           <include name="startBrowser"/>
+          <include name="userLogin"/>
         </methods>
       </class> <!-- org.mma.mercury.tours.regression.suite.MercuryToursRegressionSuite -->
     </classes>

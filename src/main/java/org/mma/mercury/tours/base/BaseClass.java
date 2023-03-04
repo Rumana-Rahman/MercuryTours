@@ -56,6 +56,11 @@ public class BaseClass
 		ArrayList<Object[]> testdata = TestdataUtil.getRegisterPage();
 		return testdata.iterator();	
 	}
+	@DataProvider
+	public Iterator<Object[]> getLoginPage(){
+		ArrayList<Object[]> testdata = TestdataUtil.getLoginPage();
+		return testdata.iterator();	
+	}
 	
 	/**
 	 *********************************************************************************************************   
