@@ -2,6 +2,7 @@ package org.mma.mercury.tours.util;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 /**
  *********************************************************************************************************   
@@ -18,7 +19,11 @@ public class BrowserFactory {
 	public static WebDriver StartApplication (WebDriver driver, String browserName, String appURL) {
 		if (browserName.equals("Chrome"))
 		{
-			driver = new ChromeDriver();
+			ChromeOptions opt = new ChromeOptions();
+
+		    opt.addArguments("--remote-allow-origins=*");
+		    driver = new ChromeDriver(opt);
+			
 		}
 		
 		driver.manage().window().maximize();
